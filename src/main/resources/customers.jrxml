@@ -73,7 +73,7 @@
                 <textElement textAlignment="Center">
                     <font size="14" isBold="true"/>
                 </textElement>
-                <text><![CDATA[Designation]]></text>
+                <text><![CDATA[Address]]></text>
             </staticText>
             <staticText>
                 <reportElement mode="Opaque" x="333" y="0" width="111" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="20d9b9f8-dc26-4320-8889-af63029bb443">

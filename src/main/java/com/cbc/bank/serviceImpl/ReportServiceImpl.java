@@ -34,7 +34,7 @@ public class ReportServiceImpl implements ReportService {
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(employees);
         Map<String, Object> parameters = new HashMap<>();
-        parameters.put("createdBy", "Java Techie");
+        //parameters.put("createdBy", "Java Techie");
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
         if (reportFormat.equalsIgnoreCase("html")) {
             JasperExportManager.exportReportToHtmlFile(jasperPrint, path + "\\customers.html");
